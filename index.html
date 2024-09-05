@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header><h1>Welcome to my Poem Generator</h1></header>
+    <div class="container">
+      <header><h1>AI Poem Generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Please enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Eyes that last I saw in tears Through division Here in death's dream
-        kingdom The golden vision reappears I see the eyes but not the tears
-        This is my affliction This is my affliction Eyes I shall not see again
-        Eyes of decision Eyes I shall not see unless At the door of death's
-        other kingdom Where, as in this, The eyes outlast a little while A
-        little while outlast the tears And hold us in derision.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/nberts">Nina B.</a> and is open-sourced on
-      <a href="https://github.com">Github</a>.
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Please enter the topic of the poem"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Eyes that last I saw in tears Through division Here in death's dream
+          kingdom The golden vision reappears I see the eyes but not the tears
+          This is my affliction This is my affliction Eyes I shall not see again
+          Eyes of decision Eyes I shall not see unless At the door of death's
+          other kingdom Where, as in this, The eyes outlast a little while A
+          little while outlast the tears And hold us in derision.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/nberts">Nina B.</a> and is open-sourced on
+        <a href="https://github.com">Github</a>.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
