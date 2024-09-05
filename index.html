@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Poem Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
       <header><h1>AI Poem Generator</h1></header>
 
       <main>
-        <form>
+        <form id="poem-generator">
           <input
             type="text"
             placeholder="Please enter the topic of the poem"
@@ -21,14 +22,7 @@
           />
           <input type="submit" value="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Eyes that last I saw in tears Through division Here in death's dream
-          kingdom The golden vision reappears I see the eyes but not the tears
-          This is my affliction This is my affliction Eyes I shall not see again
-          Eyes of decision Eyes I shall not see unless At the door of death's
-          other kingdom Where, as in this, The eyes outlast a little while A
-          little while outlast the tears And hold us in derision.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
